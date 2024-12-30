@@ -9,7 +9,8 @@ pull_request:
 jobs:
 build:
 runs-on: ubuntu-latest
-strategy: matrix:
+strategy: 
+matrix:
 node-version: [20.x]
 steps:
 - name: Checkout repository uses: actions/checkout@v3
